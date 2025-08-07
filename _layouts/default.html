@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> {{ page.title }} </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+  <link rel="stylesheet" href="/css/carousel.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-  <h1>{{ page.title }}</h1>
-  <p>
-    <a href="/">Home</a> |
-    <a href="/about">About</a> |
-    <a href="/gallery">Gallery</a>
-  </p>
+
+
+    <nav class="demo navbar">
+      <a href="#" class="brand">
+        <span>Nathan Chinapen</span>
+      </a>
+
+      <!-- responsive-->
+      <input id="bmenub" type="checkbox" class="show">
+      <label for="bmenub" class="burger pseudo button">menu</label>
+
+      <div class="menu">
+        <a href="#" class="pseudo button icon-picture">Home</a>
+        <a href="#" class="pseudo button icon-picture">Gallery</a>
+        <a href="#" class="pseudo button icon-picture">Prints</a>
+        <a href="#" class="pseudo button icon-picture">Contact</a>
+
+      </div>
+    </nav>
+  </div>
 
   {{ content }}
 
-  <p id="footer">Copyright ©️ 2023 Fizal</p>
+  <p id="footer"> Designed by plantainchip </p>
 
-
+  <script src="/js/carousel.js"></script>
+  <script src="/js/main.js"></script>
 </body>
+
 </html>

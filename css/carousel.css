@@ -1,28 +1,3 @@
-body {
-  margin: auto;
-  font-family: sans-serif;
-}
-
-.image, .image img {
-  width: 100%;
-}
-
-.navbar {
-  background: #333333;
-  color: white;
-  padding: 3rem 1rem;
-}
-
-nav .burger~.menu>a {
-  color: black;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-}
-
-nav .burger~.menu {
-  padding-top: 40px;
-}
-
 .carousel {
   min-height: 100vh;
   overflow: hidden;

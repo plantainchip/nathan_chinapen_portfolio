@@ -1,0 +1,1 @@
+new Carousel(document.querySelector(".carousel"), 5000);
