@@ -3,7 +3,8 @@ body {
   font-family: sans-serif;
 }
 
-.image, .image img {
+.image,
+.image img {
   width: 100%;
 }
 
@@ -22,6 +23,23 @@ nav .burger~.menu>a {
 nav .burger~.menu {
   padding-top: 40px;
 }
+
+nav .menu {
+  padding-bottom: 40px;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+  nav .brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+}
+
 
 .carousel {
   min-height: 100vh;
@@ -135,4 +153,34 @@ nav .burger~.menu {
 .carousel__control:hover {
   opacity: 1;
   cursor: pointer;
+}
+
+
+/* cards in index*/
+.card {
+  /* width: 300px; */
+  height: 450px;
+  /* margin: 50px; */
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+.dropimage,
+button,
+.button,
+[type=submit],
+.label,
+[data-tooltip]:after {
+  background: #6f8a69;
+}
+
+.cardscontainer {
+  padding: 10px;
 }
